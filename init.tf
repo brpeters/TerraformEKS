@@ -30,8 +30,12 @@ locals {
   provider = "aws"
   region   = "spo"
   board    = "IGTI"
-  owner    = "Luiz Miguel"
+  owner    = "Bruno Peters"
 }
+
+
+
+
 
 #Comando para gerar o kubeconfig aws --region sa-east-1 eks update-kubeconfig --kubeconfig kubeconfig_homolog.yaml --name homolog-rh
 provider "helm" {
